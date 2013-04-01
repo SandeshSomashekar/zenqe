@@ -94,7 +94,7 @@ class Test(unittest.TestCase):
     renv_15_incentive = {"incentivevalue": 15, "incentivename": "RedEnvelope"}
     expected_incentive_list = [fan_13_incentive, rcom_25_incentive, rcom_100_incentive, shby_10_incentive, renv_15_incentive]
 
-    '''
+    
     # Positive1, Group="Sanity" 
     def testPositive1(self):
         print self.TEST_ID_PRINT % "Positive1"
@@ -201,7 +201,7 @@ class Test(unittest.TestCase):
         
         self.assertTrue(data["status"] == 200, "Status 200 is expected...")        
         pass
-    '''
+    
     # Positive6, Group="Regression"
     def testPositive6(self):
         print self.TEST_ID_PRINT % "Positive6"
