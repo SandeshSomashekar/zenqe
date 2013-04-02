@@ -109,7 +109,7 @@ class Test(unittest.TestCase):
         # print "status is %s" % data["status"]
         self.assertTrue(data["status"] == 200, "Check if status is success?")
         # print("\nPositive1 is finished running.")
-        pass        
+        pass
 
     # Positive2, Group="Sanity"
     def testPositive2(self):
